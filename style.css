@@ -4,12 +4,12 @@
     font-family: 'Source Sans Pro', sans-serif;
     grey: #333333;
     lightgrey : #777777;
-    redcolor: #ED1A3B;
+    classiccolor: rgb(233, 113, 0);
 
 */
 
 .navbar{
-    background-color: #ED1A3B;
+    background-color: rgb(233, 113, 0);
     color: #FFFFFF;
     font-family: 'Source Sans Pro', sans-serif;
     position: fixed;
@@ -31,7 +31,7 @@ h2{
 .barre{
     width: 3em;
     height: 3px;
-    background-color: #ED1A3B;
+    background-color: rgb(233, 113, 0);
     margin-top: 1em;
     margin-bottom: 1em;
 }
@@ -53,7 +53,7 @@ li{
 }
 
 .sidebar{
-    background-color: #ED1A3B;
+    background-color: rgb(233, 113, 0);
     width: 25%;
     position: fixed;
     z-index: 1;
@@ -71,3 +71,8 @@ a:hover{
     color: rgb(228, 228, 228);
     text-decoration-style: none;
 }
+
+h4{
+    color: #3f3f3f;
+}
+
