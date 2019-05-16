@@ -1,15 +1,13 @@
-/* variables */
-
 /*
     font-family: 'Source Sans Pro', sans-serif;
     grey: #333333;
     lightgrey : #777777;
-    classiccolor: rgb(233, 113, 0);
+    classiccolor: #CA0044;
 
 */
 
 .navbar{
-    background-color: rgb(233, 113, 0);
+    background-color: #CA0044;
     color: #FFFFFF;
     font-family: 'Source Sans Pro', sans-serif;
     position: fixed;
@@ -31,7 +29,7 @@ h2{
 .barre{
     width: 3em;
     height: 3px;
-    background-color: rgb(233, 113, 0);
+    background-color: #CA0044;
     margin-top: 1em;
     margin-bottom: 1em;
 }
@@ -53,7 +51,7 @@ li{
 }
 
 .sidebar{
-    background-color: rgb(233, 113, 0);
+    background-color: #CA0044;
     width: 25%;
     position: fixed;
     z-index: 1;
@@ -68,7 +66,7 @@ li{
 }
 
 a:hover{
-    color: rgb(228, 228, 228);
+    color: #8b0035;
     text-decoration-style: none;
 }
 
@@ -76,3 +74,84 @@ h4{
     color: #3f3f3f;
 }
 
+.icons{
+    width: 1em;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+.popup .close:hover {
+    color: #06D85F;
+}
+.popup .content {
+    max-height: 30%;
+    overflow: auto;
+}
+
+
+.img{
+    position:relative;
+    justify-items: space-between;
+}
+
+.top{
+    position:absolute;
+    top:0;
+    left:0;
+    opacity:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    width: 4em;
+}
+
+.bottom{
+    opacity:1;
+    -webkit-transition: opacity 1s ease-in-out;
+    width: 4em;
+}
+
+.top:hover{
+    opacity:1;
+}
+
+.bottom:hover{
+    opacity:0;
+}
