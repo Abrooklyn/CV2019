@@ -10,7 +10,6 @@
     background-color: #CA0044;
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
-    position: fixed;
     width: 100%;
 }
 
@@ -25,7 +24,7 @@ h2{
 }
 
 .top-container{
-    padding-top: 15em;
+    padding-top: 2em;
 }
 .barre{
     width: 3em;
@@ -52,21 +51,6 @@ li{
     margin-left: 2em;
 }
 
-.sidebar{
-    background-color: #CA0044;
-    width: 25%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    overflow-x: hidden;
-    margin-top: 10em;
-}
-
-.sidebar a{
-    color: #FFFFFF;
-}
-
 a:hover{
     color: #8b0035;
     text-decoration-style: none;
@@ -79,4 +63,8 @@ h4{
 
 h1{
     font-family: 'Poppins', sans-serif;
+}
+
+.coordn{
+    font-size: 1em;
 }
