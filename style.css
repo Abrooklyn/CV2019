@@ -11,12 +11,9 @@
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
     width: 100%;
+    font-size: 1.2em;
 }
 
-.navbar a{
-    color: #FFFFFF;
-    font-size: 1.5em;
-}
 
 h2{
     color: #333333;
@@ -67,4 +64,14 @@ h1{
 
 .coordn{
     font-size: 1em;
+    color: #FFF;
+    margin-left: 2em;
+}
+
+.sidebar{
+    background-color: rgba(168, 0, 57, 0.43);
+}
+
+.title{
+    font-size: 2em;
 }
